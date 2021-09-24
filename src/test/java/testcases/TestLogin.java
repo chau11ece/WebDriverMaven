@@ -25,6 +25,7 @@ public class TestLogin {
 		driver.get("https://portal-staging.vizidox.com");
 		driver.findElement(By.id("username")).sendKeys("chautran@mailinator.com");
 		driver.findElement(By.id("password")).sendKeys("123456");
+		driver.findElement(By.id("kc-login")).click();
 		
 	}
 	
